@@ -246,9 +246,10 @@ header {
 }
 .list-item {
   display: inline-block;
-  height: 355px;
-  width: 250px;
-  margin: 5px;
+  height: 255px;
+  width: 180px;
+  margin: 10px;
+  border-radius: 5px;
 }
 .list-item a {
   color: inherit !important;
