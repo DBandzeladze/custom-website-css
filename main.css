@@ -224,7 +224,6 @@ header {
   width: 100% !important;
   height: 100% !important;
   border: 0 !important;
-  border-radius: 0;
 }
 .list-item .data.image .link {
   width: 100%;
@@ -246,11 +245,10 @@ header {
   display: none;
 }
 .list-item {
-  height: 680px;
-  width: 480px;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  height: 255px;
+  width: 180px;
+  margin: 10px;
 }
 .list-item a {
   color: inherit !important;
@@ -307,10 +305,6 @@ header {
   color: #fff;
   border: 0;
   z-index: 15;
-  background-color: rgba(0, 0, 0, 0.7);
-  font-size: 14px;
-  font-weight: bold;
-  padding: 4px 0;
 }
 .list-item .list-table-data > .data.score .link {
   font-weight: initial;
@@ -364,3 +358,4 @@ header {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
