@@ -246,8 +246,8 @@ header {
   display: none;
 }
 .list-item {
-  height: 340px;
-  width: 240px;
+  height: 680px;
+  width: 480px;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -363,9 +363,4 @@ header {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-
-.list-item:hover {
-  transform: scale(1.03);
-  transition: transform 0.2s ease-in-out;
 }
